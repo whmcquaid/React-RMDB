@@ -17,7 +17,7 @@ import {
 const Header = () => (
 <StyledHeader>
   <div className="header-content">
-    <Link to="/">
+    <Link to="/home">
       <StyledRMDBLogo src={RMDBLogo} alt="rmdb-logo" />
     </Link>
   
