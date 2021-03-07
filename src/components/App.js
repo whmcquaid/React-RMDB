@@ -13,8 +13,8 @@ const App = () => (
     <Router>
     <Header />
     <Switch>
-      <Route path="/home" exact component={Home}/>
-      <Route path="/:movieId" component={Movie}/>
+      <Route path="/React-RMDB/home" exact component={Home}/>
+      <Route path="/React-RMDB/:movieId" component={Movie}/>
       <Route component={NotFound}/> 
       </Switch>     
     </Router>

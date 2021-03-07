@@ -7,7 +7,7 @@ const Navigation = ({movie}) => {
     return (
     <StyledNavigation>
         <div className='navigation-content'>
-            <Link to='/home'>
+            <Link to='/React-RMDB/home'>
                 <p>Home</p>
             </Link>
             <p>|</p>
